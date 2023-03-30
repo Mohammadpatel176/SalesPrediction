@@ -1,0 +1,5 @@
+Jinja2 is a Python-based templating language that allows developers to generate dynamic HTML pages by combining pre-defined templates with data from a web application.
+
+flask python framework 
+css
+javaScript

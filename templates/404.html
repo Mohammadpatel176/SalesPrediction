@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<script src="https://kit.fontawesome.com/8502dc2626.js" crossorigin="anonymous"></script>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Sofia|Urbanist|Bangers|Patrick+Hand&display=swap" />
+<div class="container">
+  <div>
+    <h3> 404 - <b>{{ request.path }}</b> </h3>
+    <p> The requested URL was not found on the server. If you entered the URL manually please check your spelling and
+      try again. </p>
+  </div>
+</div>
+{% endblock %}

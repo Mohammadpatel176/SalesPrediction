@@ -1,0 +1,70 @@
+body {
+    color: whitesmoke;
+  }
+  
+body {
+  background-image: url("/static/images/pexels-codioful-\(formerly-gradienta\)-7135033.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "system-ui";
+}
+
+.header-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.r1 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.link-row {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.link {
+  color: rgba(195, 7, 63, 1);
+  text-decoration: none;
+}
+
+.link h3 {
+  font-size: 35px;
+  font-family: "system-ui";
+}
+
+.link:hover {
+  color: rgba(111, 34, 50, 1);
+}
+
+p {
+  font-size: 20px !important;
+  margin-top: 5px;
+}
+
+.display-1 {
+  font-family: "Bangers";
+  font-size: 80px !important;
+}
+
+/*********** Navbar Styles ***********/
+.navbar-brand {
+  font-family: "Bangers";
+  font-size: 40px;
+  padding: 20px;
+}
+
+.nav {
+  font-size: 35px;
+}
+
+.nav-item {
+  padding: 30px;
+  color: white;
+}
+
+.nav-item:hover,
+.navbar-brand:hover {
+  color: rgba(195, 7, 63, 1) !important;
+}
